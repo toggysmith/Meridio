@@ -5,7 +5,6 @@ colorama==0.4.6
 cssbeautifier==1.14.7
 Django==4.1.7
 django-appconf==1.0.5
-django-browser-reload==1.7.0
 django-compressor==4.3.1
 djlint==1.19.16
 EditorConfig==0.12.3

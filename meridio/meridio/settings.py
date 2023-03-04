@@ -40,9 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Django Compressor
     'compressor',
-    # Django Browser Reload (Handle automatic CSS refreshes in development when changing Tailwind CSS styles)
-    'django_browser_reload',
     # Meridio
+    'meridio',
     'core',
     'accounts',
 ]
@@ -56,8 +55,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # Django Browser Reload
-    "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
 ROOT_URLCONF = 'meridio.urls'
